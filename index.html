@@ -62,13 +62,6 @@
     <header class="header">
       <div class="container">
         <nav class="header__nav">
-          <div class="logo">
-            <img
-              class="img-responsive logo-image"
-              src="img/header/logo.png"
-              alt="Logo"
-            />
-          </div>
           <ul class="header__menu">
             <li class="header__menu-item">
               <a class="header__menu-link" href="index.html">Home</a>
@@ -219,7 +212,11 @@
           </div>
           <div class="story__slide">
             <div class="story__slider-image">
-              <img class="img-responsive" src="images/IMG_0763.jpg" alt="Photo" />
+              <img
+                class="img-responsive"
+                src="images/IMG_0763.jpg"
+                alt="Photo"
+              />
             </div>
             <div class="story__slider-text">
               <div class="slider__head-text">
@@ -230,7 +227,11 @@
           </div>
           <div class="story__slide">
             <div class="story__slider-image">
-              <img class="img-responsive" src="images/IMG_0764.jpg" alt="Photo" />
+              <img
+                class="img-responsive"
+                src="images/IMG_0764.jpg"
+                alt="Photo"
+              />
             </div>
             <div class="story__slider-text">
               <div class="slider__head-text">
@@ -354,7 +355,6 @@
             </div>
           </div>
         </div>
-        </div>
       </div>
     </section>
     <section class="rvsp" id="rvsp">
@@ -382,16 +382,15 @@
                 >
                 <input class="form-control" type="number" id="number" />
               </div>
-              <div class="form-group iputs__group form-group--select">
-                <div class="form__select select--clicked">
-                  <span class="select__label">I will Attend</span
-                  ><span class="selected__item"></span>
-                  <div class="select-dropdown">
-                    <span class="dropdown__select">Yes</span
-                    ><span class="dropdown__select">Not</span
-                    ><span class="dropdown__select">Not Sure</span>
-                  </div>
-                </div>
+              <div class="form-group iputs__group">
+                <label class="bmd-label-floating" for="attendance"
+                  >I will Attend</label
+                >
+                <select class="form-control" id="attendance" name="attendance">
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                  <option value="Not Sure">Not Sure</option>
+                </select>
               </div>
             </div>
             <div class="rvsp__inputs-group rvsp__group--textarea">
@@ -434,19 +433,16 @@
         <span class="footer__name Mauren text--colored">Mauren</span>
       </div>
     </footer>
-    <script src="js/libs.min.js"></script>
-    <script
-      type="text/javascript"
-      src="https://api-maps.yandex.ru/2.1/?apikey=0a7ad2dd-daec-4dac-84d8-e01e38600600&amp;lang=ru_RU"
-    ></script>
-    <script src="js/switcher/cookie.js"></script>
-    <script src="js/switcher/colorswitcher.js"></script>
     <script
       src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
       integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
       crossorigin="anonymous"
     ></script>
     <script src="js/counter.js"></script>
-    <script src="js/scripts.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="js/rsvp-email.js"></script>
   </body>
 </html>

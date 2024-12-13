@@ -1,5 +1,19 @@
 @charset "UTF-8";
 @font-face {
+  font-family: 'classico';
+  src: url('./fonts/Classico_New/Classico.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'classico-bold';
+  src: url('./fonts/Classico_New/Classico-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "roboto-example";
   font-weight: normal;
   font-style: normal;
@@ -43,12 +57,12 @@
 }
 
 ::-moz-selection {
-  background-color: #faf0ff;
+  background-color: #DCEDDF;
   color: #fff;
 }
 
 ::selection {
-  background-color: #faf0ff;
+  background-color: #DCEDDF;
   color: #fff;
 }
 
@@ -57,10 +71,10 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.65;
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 400;
   overflow-x: hidden;
-  color: #615869;
+  color: #68886E;
   background-color: #fff;
 }
 body input,
@@ -125,13 +139,13 @@ a:hover {
 }
 
 .btn {
-  font-family: "Marcellus", serif;
+  font-family: "classico-bold", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   background: none;
   text-transform: uppercase;
-  background-color: #4f3566;
+  background-color: #3C4E3F;
   border: none;
   display: block;
   -webkit-transition: all 0.3s ease-out;
@@ -163,13 +177,13 @@ a:hover {
   color: #fff;
 }
 .btn:focus {
-  background-color: #4f3566;
+  background-color: #3C4E3F;
   color: #fff;
   border: 2px solid #f5a8a8;
   color: #fff;
 }
 .btn:disabled {
-  background-color: #cbbadb;
+  background-color: #A8CEAE;
   color: #fff;
 }
 
@@ -195,7 +209,7 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #4f3566;
+  background: #3C4E3F;
   z-index: 10;
   display: none;
 }
@@ -234,7 +248,7 @@ a:hover {
   white-space: nowrap;
 }
 .mobile-navigation__link .mobile-navigation__link:hover {
-  color: #faf0ff;
+  color: #DCEDDF;
 }
 
 .mobile-menu__close {
@@ -249,11 +263,11 @@ a:hover {
 }
 
 .mobile-menu__close:hover::after {
-  background-color: #faf0ff;
+  background-color: #DCEDDF;
 }
 
 .mobile-menu__close:hover::before {
-  background-color: #faf0ff;
+  background-color: #DCEDDF;
 }
 
 .mobile-menu__close::after,
@@ -287,8 +301,8 @@ a:hover {
   border: none;
   padding: 12px 40px;
   padding-right: 64px;
-  background-color: #4f3566;
-  font-family: "Marсellus-Regular", serif;
+  background-color: #3C4E3F;
+  font-family: "classico-bold", sans-serif;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
@@ -319,12 +333,12 @@ a:hover {
 }
 
 .btn:focus {
-  background-color: #4f3566;
+  background-color: #3C4E3F;
   border: 2px solid #f5a8a8;
 }
 
 .btn:disabled {
-  background-color: #cbbadb;
+  background-color: #A8CEAE;
 }
 
 .to-top {
@@ -486,7 +500,7 @@ ul.color_schemes li {
 }
 
 .styleswitch.color-7 {
-  background: #4f3566;
+  background: #3C4E3F;
 }
 
 .styleswitch.color-8 {
@@ -559,7 +573,7 @@ ul.color_schemes li {
 }
 
 .header__menu-link {
-  font-family: "Marcellus", serif;
+  font-family: "classico-bold", sans-serif;
   font-size: 13px;
   line-height: 20px;
   color: #fff;
@@ -590,7 +604,7 @@ ul.color_schemes li {
   border: none;
   background: none;
   color: #fff;
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -633,7 +647,7 @@ ul.color_schemes li {
 }
 
 .header__title {
-  font-family: "Marcellus", serif;
+  font-family: "classico-bold", sans-serif;
   font-size: 92px;
   line-height: 132px;
   padding-bottom: 16px;
@@ -642,7 +656,7 @@ ul.color_schemes li {
 }
 
 .header__subtitle {
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 32px;
@@ -718,7 +732,7 @@ ul.color_schemes li {
 /*1.1 END Header media*/
 /*1.1.1 Countdown*/
 .header__countdown {
-  background-color: #faf0ff;
+  background-color: #DCEDDF;
   position: absolute;
   left: 50%;
   bottom: -34%;
@@ -732,9 +746,9 @@ ul.color_schemes li {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 700;
-  color: #4f3566;
+  color: #3C4E3F;
   text-transform: capitalize;
   white-space: nowrap;
   margin-bottom: 32px;
@@ -760,7 +774,7 @@ ul.color_schemes li {
 
 .countdown__element {
   padding: 10px 25px;
-  border: 1px solid #cbbadb;
+  border: 1px solid #A8CEAE;
 }
 .countdown__element span {
   display: block;
@@ -768,20 +782,20 @@ ul.color_schemes li {
 }
 
 .countdown__element .count {
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #4f3566;
+  color: #3C4E3F;
   margin-bottom: 4px;
 }
 
 .countdown__element .label {
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #4f3566;
+  color: #3C4E3F;
 }
 
 /*1.1.1 END Countdown*/
@@ -823,12 +837,12 @@ ul.color_schemes li {
 }
 
 .s-title {
-  font-family: "Marcellus", serif;
+  font-family: "classico-bold", sans-serif;
   font-size: 56px;
   line-height: 88px;
   text-align: center;
   text-transform: capitalize;
-  color: #4f3566;
+  color: #3C4E3F;
 }
 
 .couple .s-title {
@@ -853,7 +867,7 @@ ul.color_schemes li {
   position: absolute;
   width: 112px;
   height: 1px;
-  background-color: #4f3566;
+  background-color: #3C4E3F;
   bottom: 0;
   left: 0;
   -webkit-transform: translateX(-50%);
@@ -862,19 +876,19 @@ ul.color_schemes li {
 }
 
 .couple__title {
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #4f3566;
+  color: #3C4E3F;
   text-transform: uppercase;
 }
 
 .couple__subtitle {
-  font-family: "Lora", serif;
+  font-family: "classico", sans-serif;
   font-size: 24px;
   line-height: 36px;
-  color: #4f3566;
+  color: #3C4E3F;
 }
 
 .couple__text {
@@ -891,7 +905,7 @@ ul.color_schemes li {
 }
 
 .couple__descr {
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -928,7 +942,7 @@ ul.color_schemes li {
 .couple__image {
   width: 352px;
   height: 432px;
-  border: 8px solid #4f3566;
+  border: 8px solid #3C4E3F;
   position: relative;
 }
 .couple__image::after {
@@ -1070,7 +1084,7 @@ ul.color_schemes li {
   left: 0;
   width: 44.44%;
   height: 100%;
-  background-color: #faf0ff;
+  background-color: #DCEDDF;
 }
 
 .story__slide {
@@ -1100,7 +1114,7 @@ ul.color_schemes li {
   position: absolute;
   width: 112px;
   height: 1px;
-  background-color: #4f3566;
+  background-color: #3C4E3F;
   bottom: 0;
   left: 0;
   -webkit-transform: translateX(-50%);
@@ -1482,7 +1496,7 @@ ul.color_schemes li {
 
 .venues__card {
   width: 560px;
-  border: 8px solid #4f3566;
+  border: 8px solid #3C4E3F;
 }
 
 .address__map {
@@ -1552,7 +1566,7 @@ ul.color_schemes li {
   position: absolute;
   width: 112px;
   height: 1px;
-  background-color: #4f3566;
+  background-color: #3C4E3F;
   bottom: 0;
   left: 0;
   -webkit-transform: translateX(-50%);
@@ -1561,12 +1575,12 @@ ul.color_schemes li {
 }
 
 .venues__card-title {
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   text-transform: uppercase;
-  color: #3c3641;
+  color: #4B614E;
 }
 
 .venues__card-block {
@@ -1577,28 +1591,28 @@ ul.color_schemes li {
 }
 
 .venues__card-label {
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #615869;
+  color: #68886E;
 }
 
 .venue__card-data {
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #615869;
+  color: #68886E;
 }
 
 .venues__card-link {
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #4f3566;
+  color: #3C4E3F;
 }
 
 .venues__card {
@@ -1710,7 +1724,7 @@ ul.color_schemes li {
 .rvsp {
   padding-top: 96px;
   padding-bottom: 144px;
-  background-color: #faf0ff;
+  background-color: #DCEDDF;
   position: relative;
 }
 .rvsp::before {
@@ -1757,18 +1771,18 @@ ul.color_schemes li {
 }
 
 .rvsp__title {
-  font-family: "Marcellus", serif;
+  font-family: "classico-bold", sans-serif;
   font-size: 56px;
   line-height: 88px;
-  color: #4f3566;
+  color: #3C4E3F;
 }
 
 .rvsp__subtitle {
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #4f3566;
+  color: #3C4E3F;
   margin-bottom: 16px;
   display: block;
 }
@@ -1790,16 +1804,16 @@ ul.color_schemes li {
 
 [class*=" bmd-label"],
 [class^="bmd-label"] {
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #4f3566;
+  color: #3C4E3F;
 }
 
 .is-focused [class*=" bmd-label"],
 .is-focused [class^="bmd-label"] {
-  color: #4f3566;
+  color: #3C4E3F;
   font-size: 8px;
   line-height: 16px;
   opacity: 0.7;
@@ -1810,15 +1824,15 @@ ul.color_schemes li {
 .is-focused .custom-file-control,
 .is-focused .form-control {
   background-image:
-    -o-linear-gradient(bottom, #4f3566 0px, rgba(79, 53, 102, 0) 0),
-    -o-linear-gradient(bottom, #4f3566 1px, transparent 0);
-  background-image: linear-gradient(0deg, #4f3566 0px, rgba(79, 53, 102, 0) 0),
-    linear-gradient(0deg, #4f3566 1px, transparent 0);
+    -o-linear-gradient(bottom, #3C4E3F 0px, rgba(79, 53, 102, 0) 0),
+    -o-linear-gradient(bottom, #3C4E3F 1px, transparent 0);
+  background-image: linear-gradient(0deg, #3C4E3F 0px, rgba(79, 53, 102, 0) 0),
+    linear-gradient(0deg, #3C4E3F 1px, transparent 0);
 }
 
 .form__select {
   height: 95%;
-  border-bottom: 1px solid #4f3566;
+  border-bottom: 1px solid #3C4E3F;
   width: 100%;
   cursor: pointer;
 }
@@ -1882,7 +1896,7 @@ ul.color_schemes li {
   box-sizing: border-box;
 }
 .dropdown__select:hover {
-  background-color: #cbbadb;
+  background-color: #A8CEAE;
 }
 
 .form-group--select::before {
@@ -1892,7 +1906,7 @@ ul.color_schemes li {
   right: 5px;
   width: 8px;
   height: 1px;
-  background-color: #4f3566;
+  background-color: #3C4E3F;
   -webkit-transform: translateY(-50%) rotate(45deg);
   -ms-transform: translateY(-50%) rotate(45deg);
   transform: translateY(-50%) rotate(45deg);
@@ -1905,7 +1919,7 @@ ul.color_schemes li {
   right: 0;
   width: 8px;
   height: 1px;
-  background-color: #4f3566;
+  background-color: #3C4E3F;
   -webkit-transform: translateY(-50%) rotate(-45deg);
   -ms-transform: translateY(-50%) rotate(-45deg);
   transform: translateY(-50%) rotate(-45deg);
@@ -2003,7 +2017,7 @@ ul.color_schemes li {
     right: 5px;
     width: 8px;
     height: 1px;
-    background-color: #4f3566;
+    background-color: #3C4E3F;
     -webkit-transform: translateY(-50%) rotate(45deg);
     -ms-transform: translateY(-50%) rotate(45deg);
     transform: translateY(-50%) rotate(45deg);
@@ -2015,7 +2029,7 @@ ul.color_schemes li {
     right: 0;
     width: 8px;
     height: 1px;
-    background-color: #4f3566;
+    background-color: #3C4E3F;
     -webkit-transform: translateY(-50%) rotate(-45deg);
     -ms-transform: translateY(-50%) rotate(-45deg);
     transform: translateY(-50%) rotate(-45deg);
@@ -2043,12 +2057,12 @@ ul.color_schemes li {
 /* 1.6 END RVSP media*/
 /*1.7 Support*/
 .support__title {
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-weight: 700;
   font-size: 52px;
   line-height: 78px;
   text-transform: uppercase;
-  color: #3c3641;
+  color: #4B614E;
   padding-bottom: 23px;
   position: relative;
 }
@@ -2062,13 +2076,13 @@ ul.color_schemes li {
   transform: translateX(50%);
   width: 192px;
   height: 1px;
-  background-color: #4f3566;
+  background-color: #3C4E3F;
 }
 
 .support__btn-sescr {
   font-size: 16px;
   line-height: 24px;
-  color: #615869;
+  color: #68886E;
 }
 
 .support {
@@ -2154,7 +2168,7 @@ ul.color_schemes li {
 .footer {
   min-height: 128px;
   width: 100%;
-  background-color: #faf0ff;
+  background-color: #DCEDDF;
   position: relative;
 }
 
@@ -2189,10 +2203,10 @@ ul.color_schemes li {
 
 .footer__name {
   display: block;
-  font-family: "Marcellus", serif;
+  font-family: "classico-bold", sans-serif;
   font-size: 56px;
   line-height: 88px;
-  color: #4f3566;
+  color: #3C4E3F;
   position: relative;
 }
 
@@ -2208,10 +2222,10 @@ ul.color_schemes li {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  font-family: "Playfair Display", serif;
+  font-family: "classico", sans-serif;
   font-size: 20px;
   line-height: 32px;
-  color: #4f3566;
+  color: #3C4E3F;
   white-space: nowrap;
 }
 

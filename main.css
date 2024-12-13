@@ -523,14 +523,14 @@ ul.color_schemes li {
       from(rgba(97, 88, 105, 0.35)),
       to(rgba(97, 88, 105, 0.35))
     ),
-    url(../img/banner-section/section-background.jpg);
+    url(images/IMG_0771.jpg);
   background: -o-linear-gradient(
       rgba(97, 88, 105, 0.35),
       rgba(97, 88, 105, 0.35)
     ),
-    url(../img/banner-section/section-background.jpg);
+    url(images/IMG_0771.jpg);
   background: linear-gradient(rgba(97, 88, 105, 0.35), rgba(97, 88, 105, 0.35)),
-    url(../img/banner-section/section-background.jpg);
+    url(images/IMG_0771.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;

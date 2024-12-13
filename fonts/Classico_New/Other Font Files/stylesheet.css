@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Classico';
+    src: url('ClassicoBold.woff2') format('woff2'),
+        url('ClassicoBold.woff') format('woff'),
+        url('ClassicoBold.ttf') format('truetype'),
+        url('ClassicoBold.svg#ClassicoBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Classico';
+    src: url('ClassicoRegular.woff2') format('woff2'),
+        url('ClassicoRegular.woff') format('woff'),
+        url('ClassicoRegular.ttf') format('truetype'),
+        url('ClassicoRegular.svg#ClassicoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

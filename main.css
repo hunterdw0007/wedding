@@ -214,6 +214,13 @@ a:hover {
   display: none;
 }
 
+.mobile-menu.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .mobile-navigation__list {
   position: absolute;
   top: 50%;

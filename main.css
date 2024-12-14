@@ -2170,35 +2170,25 @@ ul.color_schemes li {
   width: 100%;
   background-color: #dceddf;
   position: relative;
+  padding: 20px 0;
 }
 
 .footer__content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  position: absolute;
-  top: -50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, 4%);
-  -ms-transform: translate(-50%, 4%);
-  transform: translate(-50%, 4%);
+  justify-content: center;
+  gap: 30px; /* Adds consistent spacing between elements */
+  max-width: 1200px; /* Or whatever max-width you prefer */
+  margin: 0 auto;
+  position: relative; /* Changed from absolute positioning */
 }
 
-.jeremy {
-  margin-right: 56px;
+.hunter {
+  margin-right: 20px;
 }
 
-.diana {
-  margin-left: 56px;
+.mauren {
+  margin-left: 20px;
 }
 
 .footer__name {
@@ -2207,20 +2197,24 @@ ul.color_schemes li {
   font-size: 56px;
   line-height: 88px;
   color: #3c4e3f;
-  position: relative;
 }
 
 .footer__image {
   position: relative;
+  width: 150px; /* Adjusted to a reasonable size */
+}
+
+.footer__image img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .footer__image::after {
-  content: "25 /09 /2020";
+  content: "04/05/25";
   position: absolute;
   bottom: -38px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   font-family: "classico", sans-serif;
   font-size: 20px;
@@ -2229,17 +2223,18 @@ ul.color_schemes li {
   white-space: nowrap;
 }
 
-/* 1.8 END Footer */
-/* 1.8 Footer media*/
 @media only screen and (max-width: 700px) {
-  .jeremy {
-    margin-right: 36px;
+  .hunter {
+    margin-right: 15px;
   }
-  .diana {
-    margin-left: 36px;
+  .mauren {
+    margin-left: 15px;
   }
   .footer__name {
     font-size: 35px;
+  }
+  .footer__image {
+    width: 150px;
   }
 }
 
@@ -2248,8 +2243,6 @@ ul.color_schemes li {
     display: none;
   }
 }
-
-/* 1.8 END Footer media */
 select {
   width: 100%;
   background-image: linear-gradient(0deg, #3c4e3f 0px, rgba(79, 53, 102, 0) 0),

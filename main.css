@@ -1981,6 +1981,75 @@ ul.color_schemes li {
   float: right;
 }
 
+/* Style the select container to match other inputs */
+.form-group select.form-control,
+select.form-control,
+.form-control {
+  width: 256px;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  padding: 0;
+  font-family: "classico", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5a745e;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: auto !important; /* Override Bootstrap's height */
+}
+
+/* Create the bottom border gradient to match other inputs */
+.form-group select.form-control {
+  background-image: linear-gradient(0deg, #5a745e 0px, rgba(79, 53, 102, 0) 0),
+    linear-gradient(0deg, #5a745e 1px, transparent 0);
+  background-position: center bottom, center calc(100% - 1px);
+  background-repeat: no-repeat;
+  background-size: 0 100%, 100% 100%;
+  transition: background 0s ease-out 0s;
+  padding-bottom: 4px;
+}
+
+/* Style the select options */
+.form-group select.form-control option {
+  background-color: #fff;
+  color: #5a745e;
+  padding: 8px;
+}
+
+.form-group select.form-control:focus {
+  background-size: 100% 100%, 100% 100%;
+}
+
+/* Override default focus styles */
+.form-group select.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Style the select when label is focused/filled */
+.is-focused .form-group select.form-control,
+.is-filled .form-group select.form-control {
+  background-size: 100% 100%, 100% 100%;
+}
+
+/* Ensure the label behaves the same as other inputs */
+.form-group select.form-control:focus + .bmd-label-floating,
+.form-group select.form-control:not(:placeholder-shown) + .bmd-label-floating {
+  transform: translateY(-1.5rem) scale(0.75);
+  color: #5a745e;
+}
+
+/* Add media queries to match responsive behavior */
+@media only screen and (max-width: 1000px) {
+  .form-group select.form-control {
+    width: 100%;
+  }
+}
+
 /* 1.6 END RVSP */
 /* 1.6 RVSP media*/
 @media only screen and (min-width: 1450px) {

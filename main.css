@@ -618,7 +618,7 @@ ul.color_schemes li {
   border: none;
   background: none;
   color: #fff;
-  font-family: "classico", sans-serif;
+  font-family: "classico-bold", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -670,7 +670,7 @@ ul.color_schemes li {
 }
 
 .header__subtitle {
-  font-family: "classico", sans-serif;
+  font-family: "classico-bold", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 32px;
@@ -760,7 +760,7 @@ ul.color_schemes li {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  font-family: "classico", sans-serif;
+  font-family: "classico-bold", sans-serif;
   font-weight: 700;
   color: #5a745e;
   text-transform: capitalize;
@@ -796,7 +796,7 @@ ul.color_schemes li {
 }
 
 .countdown__element .count {
-  font-family: "classico", sans-serif;
+  font-family: "classico-bold", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -805,7 +805,7 @@ ul.color_schemes li {
 }
 
 .countdown__element .label {
-  font-family: "classico", sans-serif;
+  font-family: "classico-bold", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -1749,14 +1749,14 @@ ul.color_schemes li {
 }
 
 /*1.6 END Venues media*/
-/* 1.6 RVSP */
-.rvsp {
+/* 1.6 rsvp */
+.rsvp {
   padding-top: 96px;
   padding-bottom: 144px;
   background-color: #dceddf;
   position: relative;
 }
-.rvsp::before {
+.rsvp::before {
   content: "";
   position: absolute;
   left: 0;
@@ -1768,7 +1768,7 @@ ul.color_schemes li {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.rvsp::after {
+.rsvp::after {
   content: "";
   position: absolute;
   left: 24%;
@@ -1784,7 +1784,7 @@ ul.color_schemes li {
   background-repeat: no-repeat;
 }
 
-.rvsp .container {
+.rsvp .container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1795,19 +1795,19 @@ ul.color_schemes li {
   justify-content: flex-end;
 }
 
-.rvsp__forrm-wrap {
+.rsvp__forrm-wrap {
   margin-right: 15px;
 }
 
-.rvsp__title {
+.rsvp__title {
   font-family: "classico-bold", sans-serif;
   font-size: 56px;
   line-height: 88px;
   color: #5a745e;
 }
 
-.rvsp__subtitle {
-  font-family: "classico", sans-serif;
+.rsvp__subtitle {
+  font-family: "classico-bold", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -1816,7 +1816,7 @@ ul.color_schemes li {
   display: block;
 }
 
-.rvsp__inputs-group {
+.rsvp__inputs-group {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1833,7 +1833,7 @@ ul.color_schemes li {
 
 [class*=" bmd-label"],
 [class^="bmd-label"] {
-  font-family: "classico", sans-serif;
+  font-family: "classico-bold", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -1964,23 +1964,24 @@ ul.color_schemes li {
   position: absolute;
 }
 
-.rvsp__group--textarea {
+.rsvp__group--textarea {
   width: 100%;
 }
-.rvsp__group--textarea .form-group {
+.rsvp__group--textarea .form-group {
   width: 100%;
 }
 
-.rvsp__inputs-group textarea {
+.rsvp__inputs-group textarea {
   width: 100%;
   height: 93px;
   margin-bottom: 23px;
 }
 
-.rvsp__btn {
+.rsvp__btn {
   float: right;
 }
 
+<<<<<<< Updated upstream
 /* Style the select container to match other inputs */
 .form-group select.form-control,
 select.form-control,
@@ -2052,8 +2053,12 @@ select.form-control,
 
 /* 1.6 END RVSP */
 /* 1.6 RVSP media*/
+=======
+/* 1.6 END rsvp */
+/* 1.6 rsvp media*/
+>>>>>>> Stashed changes
 @media only screen and (min-width: 1450px) {
-  .rvsp::after {
+  .rsvp::after {
     content: "";
     position: absolute;
     left: 27%;
@@ -2068,25 +2073,25 @@ select.form-control,
 }
 
 @media only screen and (max-width: 1200px) {
-  .rvsp::after {
+  .rsvp::after {
     display: none;
   }
-  .rvsp::before {
+  .rsvp::before {
     display: none;
   }
-  .rvsp .container {
+  .rsvp .container {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
-  .rvsp__forrm-wrap {
+  .rsvp__forrm-wrap {
     margin-right: 0;
   }
 }
 
 @media only screen and (max-width: 1000px) {
-  .rvsp__inputs-group {
+  .rsvp__inputs-group {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2155,10 +2160,10 @@ select.form-control,
   }
 }
 
-/* 1.6 END RVSP media*/
+/* 1.6 END rsvp media*/
 /*1.7 Support*/
 .support__title {
-  font-family: "classico", sans-serif;
+  font-family: "classico-bold", sans-serif;
   font-weight: 700;
   font-size: 52px;
   line-height: 78px;
@@ -2317,7 +2322,7 @@ select.form-control,
   bottom: -38px;
   left: 50%;
   transform: translateX(-50%);
-  font-family: "classico", sans-serif;
+  font-family: "classico-bold", sans-serif;
   font-size: 20px;
   line-height: 32px;
   color: #5a745e;

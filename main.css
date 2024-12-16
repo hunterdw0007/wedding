@@ -2213,8 +2213,8 @@ select.form-control,
 }
 
 .support__btn-sescr {
+  margin-bottom: 8px;
   display: block;
-  margin-bottom: 16px;
 }
 
 .support__btn {
@@ -2226,7 +2226,15 @@ select.form-control,
 }
 
 .support__btn-wrap {
-  max-width: 288px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px; /* Space between description and buttons */
+}
+
+.support__buttons {
+  display: flex;
+  gap: 16px; /* Space between buttons */
 }
 
 /*1.7 END Support*/
@@ -2239,32 +2247,48 @@ select.form-control,
     flex-direction: column;
     text-align: center;
   }
+
   .support__title::after {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
   }
+
   .support__title-wrap {
     margin-bottom: 20px;
   }
+
   .support__btn-wrap {
     text-align: center;
     position: relative;
+    align-items: center;
+    padding-top: 16px; /* Give space for the description */
   }
+
+  .support__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 16px;
+  }
+
   .support__btn {
-    display: block;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    position: static; /* Remove absolute positioning */
+    transform: none;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .support__title {
     font-size: 33px;
+  }
+
+  .support__buttons {
+    flex-direction: column;
+    align-items: center;
   }
 }
 

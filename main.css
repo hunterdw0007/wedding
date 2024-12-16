@@ -1981,7 +1981,6 @@ ul.color_schemes li {
   float: right;
 }
 
-<<<<<<< Updated upstream
 /* Style the select container to match other inputs */
 .form-group select.form-control,
 select.form-control,
@@ -2053,10 +2052,6 @@ select.form-control,
 
 /* 1.6 END RVSP */
 /* 1.6 RVSP media*/
-=======
-/* 1.6 END rsvp */
-/* 1.6 rsvp media*/
->>>>>>> Stashed changes
 @media only screen and (min-width: 1450px) {
   .rsvp::after {
     content: "";

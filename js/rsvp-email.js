@@ -4,7 +4,7 @@
 })();
 
 // Get the form and add submit event listener
-document.querySelector('.rvsp__form').addEventListener('submit', function(event) {
+document.querySelector('.rsvp__form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent the default form submission
 
     // Get form values

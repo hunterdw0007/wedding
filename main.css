@@ -536,14 +536,14 @@ ul.color_schemes li {
       from(rgba(97, 88, 105, 0.35)),
       to(rgba(97, 88, 105, 0.35))
     ),
-    url(images/IMG_0771.jpg);
+    url(images/banner.jpg);
   background: -o-linear-gradient(
       rgba(97, 88, 105, 0.35),
       rgba(97, 88, 105, 0.35)
     ),
-    url(images/IMG_0771.jpg);
+    url(images/banner.jpg);
   background: linear-gradient(rgba(97, 88, 105, 0.35), rgba(97, 88, 105, 0.35)),
-    url(images/IMG_0771.jpg);
+    url(images/banner.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -972,7 +972,7 @@ ul.color_schemes li {
 .couple__image-groom--left::after {
   top: -60px;
   left: 60px;
-  background-image: url("images/IMG_0762.jpg");
+  background-image: url("images/groom.jpg");
   background-position: center; /* Centers the image */
   background-size: cover; /* Makes sure the image covers the area without stretching */
 }
@@ -980,7 +980,7 @@ ul.color_schemes li {
 .couple__image-bride--right::after {
   top: -60px;
   right: 60px;
-  background-image: url("images/IMG_0763.jpg");
+  background-image: url("images/bride.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -1770,7 +1770,7 @@ ul.color_schemes li {
   top: 0;
   width: 40%;
   height: 100%;
-  background-image: url("images/IMG_0767.jpg");
+  background-image: url("images/rsvp_before.jpg");
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1785,7 +1785,7 @@ ul.color_schemes li {
   transform: translateY(-50%);
   width: 320px;
   height: 384px;
-  background-image: url("images/IMG_0766.jpg");
+  background-image: url("images/rsvp_small.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2068,7 +2068,7 @@ select.form-control,
     top: 50%;
     width: 320px;
     height: 384px;
-    background-image: url("images/IMG_0766.jpg");
+    background-image: url("images/rsvp_small.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
